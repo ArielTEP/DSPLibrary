@@ -26,8 +26,6 @@ public class IIRFilter implements Convolution {
         int n,k,l;
         double y = 0;
 
-
-
         for (n = 0; n < N; n ++) {
             if(L != M){
                 System.out.println("a and b must be of same length"); break;}
